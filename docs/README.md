@@ -22,7 +22,7 @@ Este repositório contém materiais e exemplos para a disciplina de Tópicos Esp
    - **Métricas de Avaliação**: Métodos para avaliar a eficácia das técnicas de mineração de dados.
 
 6. **Aplicações de KDD**
-   - Exemplos práticos de aplicação de KDD em negócios, saúde, ciência e outros domínios.
+   - Exemplos práticos de aplicação de KDD em energia elétrica.
 
 ## Estrutura do Repositório
 
@@ -41,4 +41,4 @@ Este repositório contém materiais e exemplos para a disciplina de Tópicos Esp
 | :---: |
 
 --------------------
-![](https://github.com/jacksonn455/desenvolvimento-web-aula-sql/blob/main/assets/images/imagem.png)
+![](https://github.com/jacksonn455/kdd-topicos-especiais-computacao/blob/main/results/distribuicoes_verde_suave.png)
