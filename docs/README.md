@@ -2,6 +2,8 @@
 
 ## A Descoberta de Conhecimento em Base de Dados (KDD)
 
+- [Aula](https://github.com/jacksonn455/kdd-topicos-especiais-computacao/blob/main/docs/T%C3%B3picos%20Especiais%20em%20Computa%C3%A7%C3%A3o%20I%20-%20A%20descoberta%20de%20conhecimento%20em%20base%20de%20dados%20(KDD)%20-%20COD%207737198.pdf)
+
 Este repositório contém materiais e exemplos para a disciplina de Tópicos Especiais em Computação I, com foco na Descoberta de Conhecimento em Base de Dados (KDD). A KDD envolve a extração de conhecimento a partir de grandes volumes de dados, utilizando técnicas de mineração de dados e aprendizado de máquina. A seguir, estão descritos os principais tópicos abordados na matéria.
 
 ## Conteúdos Abordados
@@ -26,14 +28,26 @@ Este repositório contém materiais e exemplos para a disciplina de Tópicos Esp
 
 ## Estrutura do Repositório
 
-- `notebooks/`: Pasta contendo Jupyter Notebooks com exemplos práticos e exercícios relacionados aos conceitos de KDD.
-  - `introducao_kdd.ipynb`: Introdução à KDD e seu processo.
-  - `mineria_dados.ipynb`: Exemplos de técnicas de mineração de dados.
-  - `avaliacao_resultados.ipynb`: Avaliação de resultados de técnicas de KDD.
-
-- `data/`: Pasta contendo conjuntos de dados utilizados nas atividades.
-  - `dataset1.csv`: Conjunto de dados para exercícios de classificação.
-  - `dataset2.csv`: Conjunto de dados para exercícios de agrupamento.
+```plaintext
+kdd/
+│
+├── .gitignore               # Arquivo para ignorar arquivos no Git
+├── .idea/                   # Configurações do IDE
+├── .venv/                   # Ambiente virtual
+├── data/                    # Pasta contendo conjuntos de dados
+│   ├── dataset1.csv         # Conjunto de dados para exercícios de classificação
+│   └── dataset2.csv         # Conjunto de dados para exercícios de agrupamento
+├── docs/                    # Documentação e materiais de aula
+├── main.py                  # Script principal para execução
+├── results/                 # Resultados e gráficos gerados
+├── src/                     # Código-fonte do projeto
+│   ├── data_preparation.py   # Preparação dos dados
+│   ├── model_training.py     # Treinamento do modelo
+│   ├── visualization.py       # Visualização dos dados
+│   └── utils/                # Funções utilitárias
+│       ├── filesystem.py      # Manipulação de arquivos
+└── README.md                # Este arquivo
+````
 
 ## Autor
 
@@ -42,3 +56,4 @@ Este repositório contém materiais e exemplos para a disciplina de Tópicos Esp
 
 --------------------
 ![](https://github.com/jacksonn455/kdd-topicos-especiais-computacao/blob/main/results/distribuicoes_verde_suave.png)
+
