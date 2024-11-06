@@ -51,9 +51,9 @@ kdd/
 
 ## Autor
 
-| [<img src="https://avatars1.githubusercontent.com/u/46221221?s=460&u=0d161e390cdad66e925f3d52cece6c3e65a23eb2&v=4" width=115><br><sub>@jacksonn455</sub>](https://github.com/jacksonn455) |
-| :---: |
+| [<img src="https://avatars.githubusercontent.com/u/101124666?v=4" width=115><br><sub>@talesagr</sub>](https://github.com/talesagr) |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 --------------------
-![](https://github.com/jacksonn455/kdd-topicos-especiais-computacao/blob/main/results/distribuicoes_verde_suave.png)
+![](https://github.com/talesagr/kdd-final-project/blob/main/results/distribuicoes_verde_suave.png)
 
