@@ -21,6 +21,7 @@ def main():
     data['availableCountries'] = data['availableCountries'].fillna("BR")
     data['imdbId'] = data['imdbId'].fillna("tt0000000")
     data['imdbAverageRating'] = data['imdbAverageRating'].fillna(7.0)
+    data['imdbNumVotes'] = data['imdbNumVotes'].fillna(1)
 
     if data.isna().sum().any():
         print("Valores NaN restantes por coluna após imputação:", data.isna().sum())
@@ -33,7 +34,9 @@ def main():
         print("A coluna 'releaseYear' não está presente no dataset.")
         return
 
-    X_train, X_test = scale_data(train_data.iloc[:, 2:], test_data.iloc[:, 2:])
+    numeric_cols = train_data.select_dtypes(include=['float64', 'int64']).columns
+    X_train, X_test = scale_data(train_data[numeric_cols], test_data[numeric_cols])
+
     y_train = train_data['imdbAverageRating'].values
     y_test = test_data['imdbAverageRating'].values
 
