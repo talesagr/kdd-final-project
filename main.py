@@ -17,10 +17,10 @@ def main():
 
     data['title'] = data['title'].fillna("Unknown")
     data['genres'] = data['genres'].fillna("Unknown")
-    data['type'] = data['type'].fillna("Unknown")
-    data['availableCountries'] = data['availableCountries'].fillna("Unknown")
-    data['imdbId'] = data['imdbId'].fillna("Unknown")
-    data['imdbAverageRating'] = data['imdbAverageRating'].fillna(7)
+    data['type'] = data['type'].fillna("movie")
+    data['availableCountries'] = data['availableCountries'].fillna("BR")
+    data['imdbId'] = data['imdbId'].fillna("tt0000000")
+    data['imdbAverageRating'] = data['imdbAverageRating'].fillna(7.0)
 
     if data.isna().sum().any():
         print("Valores NaN restantes por coluna após imputação:", data.isna().sum())
